@@ -1,10 +1,9 @@
-import ShoppingListForm from "./ShoppingListForm";
-import ShoppingList from "./ShoppingList";
+import Counter from "./Counter";
 
 function App() {
   return (
     <>
-      <ShoppingList />
+      <Counter />
     </>
   );
 }
