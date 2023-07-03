@@ -1,9 +1,10 @@
 import Counter from "./Counter";
+import QuoteFetcher from "./QuoteFetcher";
 
 function App() {
   return (
     <>
-      <Counter />
+      <QuoteFetcher />
     </>
   );
 }

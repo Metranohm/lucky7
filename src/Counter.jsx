@@ -7,7 +7,7 @@ export default function Counter() {
     useEffect(function myEffect() {
         console.log("useEffect called");
     }, 
-    [count]
+    [count, name]
     );
 
 
