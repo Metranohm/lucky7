@@ -1,11 +1,12 @@
-import Counter from "./Counter";
-import QuoteFetcher from "./QuoteFetcher";
+import './App.css';
+import RatingDemo from './RatingDemo';
+import { Rating } from '@mui/material';
 
 function App() {
   return (
-    <>
-      <QuoteFetcher />
-    </>
+    <div>
+      <RatingDemo />
+    </div>
   );
 }
 
